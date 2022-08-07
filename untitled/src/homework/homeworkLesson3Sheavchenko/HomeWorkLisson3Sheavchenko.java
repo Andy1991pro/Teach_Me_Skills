@@ -1,12 +1,11 @@
 package homework.homeworkLesson3Sheavchenko;
 
-public class HomeWorkLesson3For {
+public class HomeWorkLisson3Sheavchenko {
     public static void main(String[] args) {
-        int x=1;
-        for(x=0;x<10;x+=2){
+        int x = 0;
+        while (x<99) {
             System.out.println(x);
+            x+=7;
     }
-}}
 
-
-
+    }}

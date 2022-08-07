@@ -2,7 +2,7 @@ package homework.homeworkLesson3Sheavchenko;
 
 import java.util.Random;
 
-public class HomeWorkLesson3Rainbow {
+public class HomeWorkLisson3Rainbow {
     public static void main(String[] args) {
         int color = new Random().nextInt(1,7);
         switch (color){

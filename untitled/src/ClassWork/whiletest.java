@@ -2,10 +2,10 @@ package ClassWork;
 
 public class whiletest
 { public static void main(String[] args) {
-    int x = 1;
-    while(x < 11) {
+    int x = 0;
+    while(x < 99) {
         System.out.println(x);
-        x+=2;
+        x+=7;
     }
 
 
