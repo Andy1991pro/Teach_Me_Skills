@@ -8,7 +8,7 @@ public class HomeWorkLisson3Mystery {
 
         int x,i = 0;
     Scanner input = new Scanner(System.in);
-    i = new Random(5).nextInt(10);
+    i = new Random().nextInt(10);
     do{
         System.out.println("Enter number");
         x= input.nextInt();

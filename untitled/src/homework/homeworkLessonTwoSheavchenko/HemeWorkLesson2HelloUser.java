@@ -1,4 +1,4 @@
-package homework.homeworkLesson2Sheavchenko;
+package homework.homeworkLessonTwoSheavchenko;
 
 import java.util.Scanner;
 
