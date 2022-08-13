@@ -1,4 +1,4 @@
-package homework.homeworkLesson3Sheavchenko;
+package homework.HomeworkLesson3Sheavchenko;
 
 import java.util.Random;
 

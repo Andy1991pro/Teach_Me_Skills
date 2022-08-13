@@ -1,0 +1,2 @@
+public class HomeWorkLesson2 {
+}

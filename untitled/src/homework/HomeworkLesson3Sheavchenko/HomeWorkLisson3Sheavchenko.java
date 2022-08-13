@@ -1,4 +1,4 @@
-package homework.homeworkLesson3Sheavchenko;
+package homework.HomeworkLesson3Sheavchenko;
 
 public class HomeWorkLisson3Sheavchenko {
     public static void main(String[] args) {

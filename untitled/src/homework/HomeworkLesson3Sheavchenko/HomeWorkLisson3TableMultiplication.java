@@ -1,4 +1,4 @@
-package homework.homeworkLesson3Sheavchenko;
+package homework.HomeworkLesson3Sheavchenko;
 
 public class HomeWorkLisson3TableMultiplication {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package homework.homeworkLesson3Sheavchenko;
+package homework.HomeworkLesson3Sheavchenko;
 
-public class HjmeWorkLisson3Taks6 {
+public class HomeWorkLisson3Taks6 {
     public static void main(String[] args) {
         int x=1;
         for(x=10;x<20;x+=1) {
