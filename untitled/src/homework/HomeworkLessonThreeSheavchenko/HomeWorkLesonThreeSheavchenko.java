@@ -1,9 +1,9 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class HomeWorkLison3Sheavchenko {
+public class HomeWorkLesonThreeSheavchenko {
     public static void main(String[] args) {
         System.out.println("Ugaday chislo");
         Scanner username = new Scanner(System.in);

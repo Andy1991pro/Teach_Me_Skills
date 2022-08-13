@@ -1,8 +1,8 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
 import java.util.Random;
 
-public class HomeWorkLisson3Rainbow {
+public class HomeWorkLessonThreeRainbow {
     public static void main(String[] args) {
         int color = new Random().nextInt(1,7);
         switch (color){

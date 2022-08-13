@@ -2,7 +2,7 @@ package homework.HomeWorkLessonTwoSheavchenko;
 
 import java.util.Random;
 
-public class Homework2IfElse {
+public class HomeworkTwoIfElse {
     public static void main(String[] args) {
         int random = new Random().nextInt(12);
         random++;

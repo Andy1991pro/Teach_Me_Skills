@@ -1,9 +1,9 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class HomeWorkLisson3Mystery {
+public class HomeWorkLessonThreeMystery {
     public static void main(String[] args) {
 
         int x,i = 0;

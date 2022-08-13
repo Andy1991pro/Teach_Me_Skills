@@ -1,8 +1,8 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
 import java.util.Random;
 
-public class HomeWork3Tempersture {
+public class HomeWorkThreeTempersture {
     public static void main(String[] args) {
         int t =new Random().nextInt(60)-30;
         System.out.println(t);

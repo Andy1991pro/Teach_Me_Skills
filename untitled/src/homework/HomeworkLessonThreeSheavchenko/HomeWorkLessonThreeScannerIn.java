@@ -1,9 +1,9 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
 
 import java.util.Scanner;
 
-public class HomeWorkLisson3ScannerIn {
+public class HomeWorkLessonThreeScannerIn {
     public static void main(String[] args) {
         System.out.println("Enter the number from 1 to 100");
         Scanner Name = new Scanner(System.in);

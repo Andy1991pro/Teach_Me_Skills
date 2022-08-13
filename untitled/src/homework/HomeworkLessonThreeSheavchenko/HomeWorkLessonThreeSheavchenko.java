@@ -1,6 +1,6 @@
-package homework.HomeworkLesson3Sheavchenko;
+package homework.HomeworkLessonThreeSheavchenko;
 
-public class HomeWorkLisson3Sheavchenko {
+public class HomeWorkLessonThreeSheavchenko {
     public static void main(String[] args) {
         int x = 0;
         while (x<99) {
