@@ -1,9 +1,9 @@
 package ClassWork;
 
-import homework.HomeWorkJessonSeven.Circle;
-import homework.HomeWorkJessonSeven.Figures;
-import homework.HomeWorkJessonSeven.Qua;
-import homework.HomeWorkJessonSeven.Triangle;
+import homework.By.TeachMeSkillsHomeWorkLessonSeven.Circle;
+import homework.By.TeachMeSkillsHomeWorkLessonSeven.Figures;
+import homework.By.TeachMeSkillsHomeWorkLessonSeven.Qua;
+import homework.By.TeachMeSkillsHomeWorkLessonSeven.Triangle;
 
 public class test {
     public static void main(String[] args) {
