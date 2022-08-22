@@ -2,6 +2,7 @@ package ClassWork;
 
 import java.util.Arrays;
 
+@SuppressWarnings("ALL")
 public class classWorklissonFour {
 
     public static void main(String  [] args) {

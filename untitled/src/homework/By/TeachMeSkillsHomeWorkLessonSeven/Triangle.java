@@ -1,9 +1,9 @@
 package homework.By.TeachMeSkillsHomeWorkLessonSeven;
 
 public class Triangle extends Figures {
-int a;
-int b;
-int c;
+final int a;
+final int b;
+final int c;
 
 public Triangle(int a, int b, int c){
     this.a=a;

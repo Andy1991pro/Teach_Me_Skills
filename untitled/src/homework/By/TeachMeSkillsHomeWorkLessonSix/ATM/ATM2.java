@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ATM2 {
     int bill20=20;
     int bill50=50;
-    int bill100=100;
+    final int bill100=100;
     int coins20;
     int coins50;
     int coins100;

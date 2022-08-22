@@ -5,7 +5,7 @@ public class Laptop  extends  computer {
         super("model");
         this.batteryLife = batteryLife;
     }
-    int batteryLife;
+    final int batteryLife;
 
     @Override
     public  void setCost(int cost){

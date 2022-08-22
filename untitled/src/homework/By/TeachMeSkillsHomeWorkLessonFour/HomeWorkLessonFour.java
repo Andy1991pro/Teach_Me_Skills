@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class HomeWorkLessonFour {
     public static void main(String[] args) {
-        int arr[] = new int[10];
+        int[] arr = new int[10];
         Random i=new Random();
         for(int a=0;a<arr.length;a++){
             int x=i.nextInt(10);

@@ -1,7 +1,7 @@
 package homework.By.TeachMeSkillsHomeWorkLessonSeven;
 
 public class Circle extends Figures{
-    int radius;
+    final int radius;
     public Circle(int radius){
         this.radius=radius;
     }

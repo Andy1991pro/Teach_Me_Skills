@@ -1,7 +1,10 @@
 package homework.By.TeachMeSkillsHomeWorkLessonSeven;
 
 public class Qua extends Figures{
-    int a,b,c,d;
+    final int a;
+    final int b;
+    final int c;
+    final int d;
     public Qua(int a, int b, int c,int d){
         this.a=a;
         this.b=b;
