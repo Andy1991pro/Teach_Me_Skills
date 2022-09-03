@@ -14,14 +14,19 @@ public class HomeWorkLessonFour {
         System.out.println("Enter number");
         int number = new Scanner(System.in).nextInt();
         for(int y=0;y<arr.length;y++){
-            if(arr[y]==number){
+            if(isNidedElement(number, arr[y])){
                 System.out.println("There is coincidence");}
                 else{
                     System.out.println("No coincidence");
                 }
 
 
-        }}}
+        }}
+
+    private static boolean isNidedElement(int number, int arr) {
+        return arr == number;
+    }
+}
 
 
 

@@ -1,6 +1,6 @@
 package ClassWork;
 
-public class whiletest
+public class Whiletest
 { public static void main(String[] args) {
     int x = 0;
     while(x < 99) {

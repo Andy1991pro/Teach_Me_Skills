@@ -1,6 +1,6 @@
 package ClassWork;
 
-public abstract class computer {//final - вводится перед class для запрета изменить класс
+public abstract class Computer {//final - вводится перед class для запрета изменить класс
     // abstract - вводится для запрета создания класса
     // protected - вводится в метод (метод будет виден только наследникам)
     int cost;
@@ -8,7 +8,7 @@ public abstract class computer {//final - вводится перед class дл
     int screenSize;
     int batteryLife;
 
-    public computer (String model) {
+    public Computer(String model) {
         this.model=model;
     }
 

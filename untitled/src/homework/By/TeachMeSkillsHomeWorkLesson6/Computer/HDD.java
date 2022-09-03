@@ -1,4 +1,4 @@
-package homework.By.TeachMeSkillsHomeWorkLessonSix.Computer;
+package homework.By.TeachMeSkillsHomeWorkLesson6.Computer;
 
 public class HDD {
     public HDD(){

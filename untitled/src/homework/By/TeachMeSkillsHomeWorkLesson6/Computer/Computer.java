@@ -1,4 +1,4 @@
-package homework.By.TeachMeSkillsHomeWorkLessonSix.Computer;
+package homework.By.TeachMeSkillsHomeWorkLesson6.Computer;
 
 
     public class Computer {
@@ -8,9 +8,8 @@ package homework.By.TeachMeSkillsHomeWorkLessonSix.Computer;
         String model= "ASUS";
         System.out.println("Price"+": "+price+ "; " +"Model"+": "+ model);
         System.out.println("RAM:");
-        RAM ram= new RAM();
         System.out.println("HDD:");
-        HDD hdd = new HDD();
+        new HDD();
         }
         int price=100;
         String model= "ASUS";
@@ -20,9 +19,9 @@ package homework.By.TeachMeSkillsHomeWorkLessonSix.Computer;
             this.model=model;
             System.out.println("Price"+": "+price+ "; " +"Model"+": "+ model);
             System.out.println("RAM:");
-            RAM ram= new RAM("Ritmix",8);
+            new RAM("Ritmix",8);
             System.out.println("HDD:");
-            HDD hdd = new HDD ("Philips",500,"Inside");
+            new HDD ("Philips",500,"Inside");
         }
 
     }

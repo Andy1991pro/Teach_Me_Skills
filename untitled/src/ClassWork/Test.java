@@ -5,7 +5,7 @@ import homework.By.TeachMeSkillsHomeWorkLessonSeven.Figures;
 import homework.By.TeachMeSkillsHomeWorkLessonSeven.Qua;
 import homework.By.TeachMeSkillsHomeWorkLessonSeven.Triangle;
 
-public class test {
+public class Test {
     public static void main(String[] args) {
 
 

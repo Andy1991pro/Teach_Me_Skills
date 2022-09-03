@@ -3,7 +3,7 @@ package ClassWork;
 import java.util.Arrays;
 
 @SuppressWarnings("ALL")
-public class classWorklissonFour {
+public class ClassWorkLessonFour {
 
     public static void main(String  [] args) {
         int [] arr =new int[10];// Объявления размера массива

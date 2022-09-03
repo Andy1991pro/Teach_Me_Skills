@@ -1,6 +1,6 @@
 package ClassWork;
 
-public class Laptop  extends  computer {
+public class Laptop  extends Computer {
     public Laptop(int batteryLife){
         super("model");
         this.batteryLife = batteryLife;

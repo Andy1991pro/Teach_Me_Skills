@@ -2,7 +2,7 @@ package ClassWork;
 
 import java.util.Random;
 
-public class classwork3Switch {
+public class ClassWork3Switch {
 //    public static void main(String[] args) {
 //        System.out.println("Hello World");
 //        int randomValue = new Random(2).nextInt();

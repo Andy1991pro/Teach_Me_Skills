@@ -2,7 +2,7 @@ package ClassWork;
 
 import java.util.Random;
 
-public class operatorpovtorFor {
+public class OperatorRepeatFor {
     public static void main(String[] args) {
         int random = new Random().nextInt();
         System.out.println(random);
