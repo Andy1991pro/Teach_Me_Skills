@@ -20,13 +20,22 @@ public class TestDocument {
                     } catch (IOException e) {
                         throw new RuntimeException(e);
                     }}
-                } else {
+                else {
                     try (FileWriter file2 = new FileWriter("Not Valid.txt", true)){
                         file2.write(document+ " - Wrong start"+'\n');
                     }catch (IOException e){
                         throw new RuntimeException(e);
                     }
                 }
+                }
+                if (document.length()!=15){
+                    try (FileWriter file2 = new FileWriter("Not Valid.txt", true)){
+                        file2.write(document+ " - Document is too long"+'\n');
+                    }catch (IOException e){
+                        throw new RuntimeException(e);
+                    }
+                }
+
                 }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
