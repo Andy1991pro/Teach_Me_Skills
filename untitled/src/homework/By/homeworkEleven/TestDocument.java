@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class TestDocument {
-    public static void main(String[] args) {
+    public void distributionDocument (){
         try {
             FileReader file = new FileReader("Document.txt");
             Scanner scanner = new Scanner(file);
@@ -35,7 +35,6 @@ public class TestDocument {
                         throw new RuntimeException(e);
                     }
                 }
-
                 }
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
