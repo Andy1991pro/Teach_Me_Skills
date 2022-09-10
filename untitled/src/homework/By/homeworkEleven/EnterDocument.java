@@ -12,7 +12,7 @@ public class EnterDocument {
             file.write("contract48fj39d\n");
             file.write("docnum830584935\n");
             file.write("contract4857310\n");
-            file.write("contract9586749587\n");
+            file.write("contract9586749\n");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

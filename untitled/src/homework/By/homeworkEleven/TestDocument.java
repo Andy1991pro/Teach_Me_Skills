@@ -13,12 +13,13 @@ public class TestDocument {
             Scanner scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 String document = scanner.nextLine();
+                if (document.length()==15){
                 if (document.contains("docnum")||document.contains("contract")) {
                     try (FileWriter file1 = new FileWriter("Valid.txt", true)) {
                         file1.write(document+'\n');
                     } catch (IOException e) {
                         throw new RuntimeException(e);
-                    }
+                    }}
                 } else {
                     try (FileWriter file2 = new FileWriter("Not Valid.txt", true)){
                         file2.write(document+ " - Wrong start"+'\n');
