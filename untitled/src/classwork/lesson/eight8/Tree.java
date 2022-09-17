@@ -1,4 +1,4 @@
-package classwork.lesson.eight;
+package classwork.lesson.eight8;
 
 public class Tree {
         public static int TREE_COUNT =0;

@@ -1,4 +1,4 @@
-package classwork.thirteen;
+package classwork.thirteen13;
 //  //
 public class KeyHolder <T> {  // <T> Позволяет задать неопределенный тип значения String/int
     private  T value;   // T нужно добавлять в месте где нужен стринг или инт

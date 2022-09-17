@@ -1,4 +1,4 @@
-package classwork.ten;
+package classwork.ten10;
 //Тема строки
 public class Main {
     public static void main(String[] args) {

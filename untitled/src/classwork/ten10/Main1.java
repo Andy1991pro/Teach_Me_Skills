@@ -1,4 +1,4 @@
-package classwork.ten;
+package classwork.ten10;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package classwork.thirteen;
+package classwork.thirteen13;
 
 import homework.by.TaechMeSkills.HomeWorkLesson8.Doctor.Dentist;
 import homework.by.TaechMeSkills.HomeWorkLesson8.Doctor.Doctor;

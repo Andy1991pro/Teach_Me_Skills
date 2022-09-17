@@ -1,4 +1,4 @@
-package classwork.fiften;
+package classwork.fiften15;
 
 public class Main extends Persons {
     public static void main(String[] args) {

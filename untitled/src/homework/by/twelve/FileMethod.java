@@ -1,10 +1,14 @@
 package homework.by.twelve;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
+import java.util.TreeMap;
 
 
-public class EnterFile {
+public class FileMethod {
     public void enterFile() {
 
         try (FileWriter word = new FileWriter("Word.txt", true)){
@@ -29,7 +33,21 @@ public class EnterFile {
             throw new RuntimeException(e);
         }
     }
-    public  void scanText (String document){
+    public  void scanText (String file){
+        try {
+
+            FileReader document = new FileReader(file);
+            Scanner scanner = new Scanner(file);
+            while (scanner.nextLine()){
+
+            }
+
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
 
     }
+
 }

@@ -1,4 +1,4 @@
-package classwork.lesson.eight;
+package classwork.lesson.eight8;
 
 public class ClassWorkTree {
 //    public static void main(String[] args) {
