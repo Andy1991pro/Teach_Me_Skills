@@ -1,0 +1,34 @@
+package homework.by.TeachMeSkillsHomeWorkLessonFour;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class HomeWorkLessonFour {
+    public static void main(String[] args) {
+        int[] arr = new int[10];
+        Random i=new Random();
+        for(int a=0;a<arr.length;a++){
+            int x=i.nextInt(10);
+            arr[a]=x;
+            System.out.println(arr[a]);}
+        System.out.println("Enter number");
+        int number = new Scanner(System.in).nextInt();
+        for(int y=0;y<arr.length;y++){
+            if(isNidedElement(number, arr[y])){
+                System.out.println("There is coincidence");}
+                else{
+                    System.out.println("No coincidence");
+                }
+
+
+        }}
+
+    private static boolean isNidedElement(int number, int arr) {
+        return arr == number;
+    }
+}
+
+
+
+
+
