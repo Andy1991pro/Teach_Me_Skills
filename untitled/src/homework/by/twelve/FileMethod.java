@@ -1,11 +1,14 @@
 package homework.by.twelve;
 
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+
+import static java.nio.file.Files.*;
 
 
 public class FileMethod {
@@ -33,21 +36,22 @@ public class FileMethod {
             throw new RuntimeException(e);
         }
     }
-    public  void scanText (String file){
+    public  void sortText (String file){
         try {
-
-            FileReader document = new FileReader(file);
-            Scanner scanner = new Scanner(file);
-            while (scanner.nextLine()){
-
-            }
-
-
-        } catch (FileNotFoundException e) {
+            ArrayList<String> text = new ArrayList<>(readAllLines(Paths.get(file)));
+            Collections.sort(text);
+            System.out.println(text);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+    public void noDuplicates (String file){
+        try {
+            HashSet <String> number = new HashSet<>(readAllLines(Paths.get(file)));
+            System.out.println(number);
+        } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
-
     }
-
 }

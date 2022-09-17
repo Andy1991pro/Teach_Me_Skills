@@ -5,6 +5,7 @@ public class Main {
         FileMethod file = new FileMethod();
         file.enterFile();
         file.enterNumber();
-        file.scanText("Word.txt");
+        file.sortText("Word.txt");
+        file.noDuplicates("Number.txt");
     }
 }
