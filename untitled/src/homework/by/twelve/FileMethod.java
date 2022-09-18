@@ -4,15 +4,13 @@ package homework.by.twelve;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashSet;
+import java.util.*;
 
 import static java.nio.file.Files.*;
 
 
 public class FileMethod {
-    public void enterFile() {
+    public static void enterFile() {
 
         try (FileWriter word = new FileWriter("Word.txt", true)){
             word.write("car\n");
@@ -25,7 +23,7 @@ public class FileMethod {
         }
 
     }
-    public void enterNumber (){
+    public static void enterNumber (){
         try (FileWriter number = new FileWriter("Number.txt", true)){
             number.write("1\n");
             number.write("6\n");
@@ -36,18 +34,18 @@ public class FileMethod {
             throw new RuntimeException(e);
         }
     }
-    public  void sortText (String file){
+    public  void printSortedText (String file){
         try {
-            ArrayList<String> text = new ArrayList<>(readAllLines(Paths.get(file)));
+            List<String> text = new ArrayList<>(readAllLines(Paths.get(file)));
             Collections.sort(text);
             System.out.println(text);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
-    public void noDuplicates (String file){
+    public void printWithoutDuplicates (String file){
         try {
-            HashSet <String> number = new HashSet<>(readAllLines(Paths.get(file)));
+            Set<String> number = new HashSet<>(readAllLines(Paths.get(file)));
             System.out.println(number);
         } catch (IOException e) {
             throw new RuntimeException(e);
