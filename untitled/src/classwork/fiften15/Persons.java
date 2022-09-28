@@ -42,5 +42,13 @@ class Persons {
         public void setNickname(String nickname) {
             this.nickname = nickname;
         }
+
+        @Override
+        public String toString() {
+            return "Person{" +
+                    "age=" + age +
+                    ", name='" + name + '\'' +
+                    '}';
+        }
     }
 }
