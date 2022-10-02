@@ -1,4 +1,4 @@
-package homework.by.TaechMeSkills.HomeWorkLesson8.Registr;
+package homework.by.HomeWorkLesson8.Registr;
 
 public class FinanceDocuments extends Document {
     @Override

@@ -1,7 +1,8 @@
 package homework.by.homewor.twen;
 
 
-
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class DocumentMethod {
 
@@ -59,6 +60,21 @@ public class DocumentMethod {
     }
     public static void matchTestEnd (String document){
         System.out.println("Test end 1a2b, result: "+document.toLowerCase().endsWith("1a2b".toLowerCase()));
+    }
+    public static void pattern (String document){
+        Pattern pattern = Pattern.compile("\\d{4}\\-\\w{3}\\-\\d{4}\\-\\w{3}\\-\\d\\w\\d\\w");
+        Matcher matcher = pattern.matcher(document);
+        if (matcher.find()){
+            outNumber(document);
+            outLetters(document);
+            outAllLiters(document);
+            commitMyDocument(document);
+            testStart555(document);
+            matchTestABC(document);
+            matchTestEnd(document);}
+        else {
+            System.out.println("Number not valid ");
+        }
     }
 
 }

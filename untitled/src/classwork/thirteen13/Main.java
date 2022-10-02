@@ -1,8 +1,8 @@
 package classwork.thirteen13;
 
-import homework.by.TaechMeSkills.HomeWorkLesson8.Doctor.Dentist;
-import homework.by.TaechMeSkills.HomeWorkLesson8.Doctor.Doctor;
-import homework.by.TaechMeSkills.HomeWorkLesson8.Doctor.DoctorHolder;
+import homework.by.HomeWorkLesson8.Doctor.Dentist;
+import homework.by.HomeWorkLesson8.Doctor.Doctor;
+import homework.by.HomeWorkLesson8.Doctor.DoctorHolder;
 
 public class Main {
     public static void main(String[] args) {

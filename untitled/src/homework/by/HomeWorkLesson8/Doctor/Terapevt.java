@@ -1,4 +1,4 @@
-package homework.by.TaechMeSkills.HomeWorkLesson8.Doctor;
+package homework.by.HomeWorkLesson8.Doctor;
 
 public class Terapevt extends Doctor {
     @Override

@@ -1,4 +1,4 @@
-package homework.by.TaechMeSkills.HomeWorkLesson8.Phone;
+package homework.by.HomeWorkLesson8.Phone;
 
 public class Main {
     public static void main(String[] args) {
