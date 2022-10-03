@@ -14,10 +14,10 @@ public class FailReader {
     }
     public static void SortList (String file) {
         Map <String, List<String>> allList = new HashMap<>();
-        ArrayList<String> listDocument = new ArrayList<>();
-        ArrayList <String> validFile = new ArrayList<>();
-        ArrayList <String> numberPhone= new ArrayList<>();
-        ArrayList <String> email = new ArrayList<>();
+        List<String> listDocument = new ArrayList<>();
+        List <String> validFile = new ArrayList<>();
+        List <String> numberPhone= new ArrayList<>();
+        List <String> email = new ArrayList<>();
         try {
             File file1 = new File(file);
             FileReader path = new FileReader(file1);
