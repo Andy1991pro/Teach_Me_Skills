@@ -12,7 +12,7 @@ import static java.nio.file.Files.*;
 public class FileMethod {
     public static void enterFile() {
 
-        try (FileWriter word = new FileWriter("Word.txt", true)){
+        try (FileWriter word = new FileWriter("Word.txt")){
             word.write("car\n");
             word.write("table\n");
             word.write("pencil\n");
